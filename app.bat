@@ -1,6 +1,6 @@
 @echo off
 title SystemConfig
-
+:: Made by Lacc
 echo ===== CPU =====
 powershell -NoProfile -Command "Get-CimInstance Win32_Processor | Select-Object -ExpandProperty Name"
 
